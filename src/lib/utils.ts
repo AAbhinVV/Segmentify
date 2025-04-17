@@ -11,8 +11,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Quill - The SaaS for Students",
-  description = "Quill is an open-source software to make chatting to your PDF files easy.",
+  title = "Segmentify",
+  description = "Segmentify is an open-source software to make chatting to your PDF files easy.",
   image = "/thumbnail.png",
   noIndex = false,
 }: {

@@ -20,7 +20,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = constructMetadata();
 
 export const viewport: Viewport = {
-  themeColor: "#FFF",
+  themeColor: "#8f8d8d",
 };
 
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {

@@ -23,7 +23,7 @@ export const Navbar = async () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           <Link href="/" className="flex z-40 font-semibold">
-            <span>quill.</span>
+            <span>Segmentify.</span>
           </Link>
 
           <div className="flex items-center justify-center space-x-4">
@@ -83,9 +83,7 @@ export const Navbar = async () => {
               )}
             </div>
 
-            <Link href={SOURCE_CODE} target="_blank" rel="noreferrer noopener">
-              <Image src="/github.svg" alt="GitHub" height={25} width={25} />
-            </Link>
+            
           </div>
         </div>
       </MaxWidthWrapper>
